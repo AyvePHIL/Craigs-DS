@@ -17,9 +17,10 @@ craig = df.isnull().sum()
 
 df2 = df.dropna()
 
-# display(df2.head(15))
-# print(df2.isnull().sum())
-# perform complete dataframe inspection report for 
+display(df2.head(5))
+print(df2.isnull().sum())
+
+# perform/generating complete dataframe inspection report 
 # explore = ProfileReport(df, title="Data File Inspection", html={
 #                         'style': {'full_width': True}})
 # explore.to_file("explore_data2.html")
@@ -28,6 +29,8 @@ df2 = df.dropna()
 
 
 # CONCLUSION
+
+
 
 
 #ANSWERS
